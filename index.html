@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtor de Currículo</title>
+</head>
+<body>
+    <h1>Preencha seu currículo</h1>
+    <form action="/save" method="post">
+        <label>Nome:</label>
+        <input type="text" name="name" required><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
+        <label>Telefone:</label>
+        <input type="tel" name="phone" required><br>
+        <label>Sobre você:</label>
+        <textarea name="about" required></textarea><br>
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+</html>
